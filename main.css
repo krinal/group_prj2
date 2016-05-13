@@ -1,0 +1,131 @@
+body {
+	font-family: "Avenir", "verdana";
+}
+
+nav {
+	width: 100%;
+}
+
+#header {
+	list-style: none;
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: left;
+	display: inline-block;
+}
+
+
+a { 
+	color: #443d3d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff471a;
+}
+
+#logo {
+	color: white;
+	font-size: 25px;
+/*	position: absolute;
+	left: 50px;
+	bottom: 15px;*/
+	width: 200px;
+	height: 40px;
+/*	border: 5px solid #262626;*/
+	background-color: #ff471a;
+	text-align: center;
+	padding: 10px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+.navbar {
+	display: inline-block;
+	margin-right: 60px;
+	font-size: 20px;
+	padding-top: 25px;
+	box-sizing: border-box;
+
+}
+
+#underbox {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding-right: 20px;
+	background-color: #ff471a;
+	position: fixed;
+	top: 80px;
+	left: 0;
+	box-sizing: border-box;
+	font-weight: bold;
+	text-align: right;
+}
+
+.sns {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 15px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+#inbox:hover {
+	color: white;
+}
+
+.thumbnail {
+	height: 30px;
+}
+
+.thumbnail_insta {
+	height: 50px;
+}
+
+
+
+.wrap {
+/*	margin-bottom: 70px;*/
+	height: 130px;
+	width: 100%;	
+}
+
+
+#footer {
+	box-sizing: border-box;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #ff471a;
+  font-weight: bold;
+  position: relative;
+  bottom: -50px;
+}
+
+footer p {
+	padding-top: 30px;
+	font-size: 13px;
+	color: white;
+}
+
+/*.facebook {
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+.twitter {
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 20px;
+}*/
