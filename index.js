@@ -1,17 +1,23 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 	
+	// $(".requestButton").mouseover(function() {
+	// 	$(this).slideUp()
+	// });
+	// $(".requestButton").mouseover(function() {
+	// 	$("p.opening").slideDown()
+	// });
+
+	$(".styleForm3").click(function() {
+		alert("Confirmed!")
+	})
 
 
 
-// 	function imageShow() {
-// 		var images = ["red", "blue", "pink"];
 
-// 		for (i = 0; i < images.length; i++) {
-// 				$("#slideShow").css("background-color", images[i]);
-// 			}
-// 			setTimeout(imageShow, 5000);
-// 		}
 
-// 	imageShow();
 
-// })
+
+
+
+})
+
