@@ -17,7 +17,7 @@ nav {
 	left: 0;
 	box-sizing: border-box;
 	text-align: center;
-	 z-index: 1;
+	z-index: 1;
 }
 
 ul {
@@ -25,12 +25,12 @@ ul {
 	display: inline-block;
 }
 
-a { 
+.navHover { 
 	color: gray;
 	text-decoration: none;
 }
 
-a:hover {
+.navHover:hover {
 	color: #3385ff;
 }
 
@@ -56,6 +56,7 @@ a:hover {
 	margin-right: 80px;
 	font-size: 17px;
 	box-sizing: border-box;
+	font-weight: bold;
 }
 
 #snsBar {
@@ -74,6 +75,10 @@ a:hover {
 
 .thumbnail {
 	height: 26px;
+}
+
+.thumbnail:hover {
+	opacity: 0.5;
 }
 
 

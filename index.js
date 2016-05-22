@@ -1,34 +1,44 @@
 $(document).ready(function() {
 	
-	// $(".requestButton").mouseover(function() {
-	// 	$(".opening").fadeOut(800)
-	// });
 
 	$(".opening").mouseover(function() {
-		$(this).slideUp(1000)
+		$(this).fadeOut(800, function() {
+			$(".requestButton").fadeIn(1000)
+		});
 	});
 
-	$(".opening").mouseover(function() {
-		$(".requestButton").fadeIn(1000)
-	});
 
 	$(".requestButton").mouseleave(function() {
-		$(this).fadeOut(1000)
+		$(this).fadeOut(200, function() {
+			$(".opening").fadeIn(500)
+		});
 	});
 
-	$(".requestButton").mouseleave(function() {
-		$(".opening").slideDown(1000)
-	});
 
 
+// 	function alertSomething() {
 
-	$(".styleForm3").click(function() {
-		alert("Confirmed!")
-	})
+// 	var a = $("input.styleform2.value")
+
+// 	if (a = []) {
+// 		$(".styleForm3").click(function() {
+// 		alert("Enter email address")
+// 		console.log()
+// 		});
+// 	} else {
+// 			$(".styleForm3").click(function() {
+// 			alert("Request has been received")
+// 		});
+// 	}
+  
+// 	}
 
 
+// alertSomething();
 
-
+$(".styleForm3").click(function() {
+	alert("Your request has been sent!");
+})
 
 
 
