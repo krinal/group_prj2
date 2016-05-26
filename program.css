@@ -1,0 +1,158 @@
+#imageBox {
+	height: 800px;
+	background-image: url("program.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	opacity: 0.8;
+	position: relative;
+ }
+
+ .background {
+ 	height: 150px;
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: black;
+ 	opacity: 0.6;
+ }
+
+  #hoverBox {
+ 	position: absolute;
+ 	bottom: 45px;
+ 	left: 40%;
+ 	margin: 0 auto;
+ 	border: 1px black solid;
+ 	width: 300px;
+ 	height: 70px;
+ }
+
+ #contentInImageBox {
+ 	box-sizing: border-box;
+ 	height: 90px;
+ 	width: 700px;
+ 	position: absolute;
+ 	bottom: 25px;
+ 	left: 50%;
+ 	margin-left: -350px;
+ 	text-align: center;
+ }
+
+ .opening {
+ 	font-weight: bold;
+ 	color: white;
+ 	font-size: 28px;
+ 	opacity: 1.0;
+ 	line-height: 150%;
+ }
+
+ .requestButton {
+ 	font-weight: bold;
+ 	display: none;
+ 	width: 200px;
+ 	height: 50px;
+ 	font-size: 20px;
+ 	background-color: #3385ff;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 15px;
+ 	box-sizing: border-box;
+ 	border-radius: 10px;
+ 	margin: 0 auto;
+ }
+
+.buttonLink {
+	color: white;
+	text-decoration: none;
+}
+
+.buttonLink:hover {
+	color: white;
+}
+
+#contentBox {
+	width: 1200px;
+	height: 800px;
+	margin: 0 auto;
+	/*position: relative;*/
+	background-color: white;
+
+}
+
+.textBox1 {
+	width: 1000px;
+	height: 600px;
+	/*position: absolute;*/
+	text-align: left;
+	box-sizing: border-box;
+	padding: 40px;
+}
+
+.h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #3385ff;
+}
+
+/*position: absolute;
+    top: 50%;
+    width: 418px;
+    height: 102px;
+    left: 50%;
+    margin-top: -51px;
+    margin-left: -209px;*/
+    /*vertically centering the content within a box*/
+
+
+.h1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #3385ff;
+}
+
+p {
+	color: gray;
+	line-height: 110%;
+	letter-spacing: 0.5px;
+	font-size: 12px
+}
+
+#formContainer {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+/*.styleForm, .styleForm2 {
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightgray;
+	font-size: 15px;
+	height: 40px;
+}
+
+.styleForm {
+	width: 200px;
+}
+
+.styleForm2 {
+	width: 410px;
+}
+
+.styleForm3 {
+	width: 415px;
+	height: 50px;
+	border-radius: 3px;
+	border-style: none;
+	border-width: 2px;
+	border-color: lightgray;
+	background-color: #3385ff;
+	font-size: 12px;
+	color: white;
+}
+
+*/
+
